@@ -1,0 +1,8 @@
+repos:
+  - repo: https://code.experian.local/scm/ukclen/pre-commit-hooks
+    rev: "1.5.0"
+    hooks:
+      - id: module-dependency-check
+      - id: check-for-newer-hooks
+      - id: terraform-checks-pass-files
+      - id: terraform-checks-pass-no-files
